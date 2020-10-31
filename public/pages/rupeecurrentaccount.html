@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rupee Current Account | SSE BANKING SYSTEM</title>
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- GOOGLE FONTS LINK     -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+  <!-- AOS ANIMATION LINK -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- AOS JS LINK -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- BOOTSTRAP CSS LINK -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+  <!-- RUPEE CURRENT ACCOUNT CSS LINK -->
+  <link rel="stylesheet" href="../css/rupeecurrentaccount.css">
+
+  <!-- CUSTOM CSS LINK -->
+  <link rel="stylesheet" href="../css/style.css">
+
+
+</head>
+
+<body>
+
+
+
+  <!-- NAVBAR SECTION START -------------------------------------------------------------------------------------------------->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="../index.html"><img src="../images/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main_nav">
+
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link btn1" href="../index.html" id="third-link">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link btn1 dropdown-toggle" id="first-link" href="#" data-toggle="dropdown"> Personal Banking
+          </a>
+          <ul class="dropdown-menu fade-down">
+            <li><a class="dropdown-item" href="../pages/bankaccounts.html">Bank Accounts <i class="fa fa-arrow-left"
+                  aria-hidden="true"></i></a></li>
+
+            <li><a class="dropdown-item" href="../pages/termdeposit.html">Term Deposit <i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+            </li>
+
+            <li><a class="dropdown-item" href="#">E-Statement Facility <i class="fa fa-arrow-left"
+                  aria-hidden="true"></i></a>
+            </li>
+
+          </ul>
+        </li>
+
+
+
+        <li class="nav-item">
+          <a class="nav-link btn1" href="../pages/waystobank.html" id="third-link"> Ways to Bank </a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link btn1" href="aboutus.html" id="third-link">About Us</a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link btn1" href="../pages/contactus.html" id="third-link"> Contact Us </a>
+        </li>
+
+
+      </ul>
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link btn1 dropdown-toggle" href="#" data-toggle="dropdown" id="net-banking"> <span>Internet
+              Banking</span> Login <i class="fa fa-lock" aria-hidden="true"></i> </a>
+          <ul class="dropdown-menu dropdown-menu-right fade-down">
+            <li><a class="dropdown-item" href="#"> Login <i class="fa fa-arrow-left" aria-hidden="true"></i></a></li>
+            <li><a class="dropdown-item" href="#" class="register"> Register <i class="fas fa-pen"></i> <i
+                  class="fa fa-arrow-left" aria-hidden="true"></i></a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+
+  <!-- NAVBAR SECTION END -->
+
+
+  <!-- -----------------------------------------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+  <!-- HEADING SECTION START -->
+
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Rupee Current Account</h1>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <form>
+            <div class="form-row">
+              <div class="col-12 col-sm-12 col-lg-12 col-md-12">
+                <button type="submit" class="btn btn-lg">Open a Rupee Current Account</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- HEADING SECTION END -->
+
+
+
+  <!-- -----------------------------------------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+  <!-- CURRENT RUPEE BANK ACCOUNTS SOCIAL ICONS SECTION START -->
+
+  <div class="container">
+    <div id="social-links">
+      <div class="row text-center">
+        <div class="col-lg-6">
+          <p>If you found this page informative, share it now!</p>
+        </div>
+        <div class="col-lg-6">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-whatsapp-square"></i>
+          <i class="fas fa-envelope-square"></i>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+
+
+  <!-- CURRENT RUPEE BANK ACCOUNTS SOCIAL ICONS SECTION END -->
+
+
+
+  <!-- -----------------------------------------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+  <!-- CURRENT RUPEE BANK ACCOUNTS MAIN CONTENT SECTION START -->
+
+
+  <div id="current-accounts-section">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <h3>Convenient and Riba Free</h3>
+          <p>Meezan Current Account is a Rupee-based current account that provides you the convenience of putting your
+            money in a Riba-free account and accessing it without any restrictions on withdrawal while enjoying a host
+            of professional conveniences from Meezan Bank.</p>
+          <p><strong>Meezan Current Account can be opened by Individuals, Sole-Proprietorships, Partnerships and Limited
+              Companies.</strong></p>
+          <p><strong>Freelancers can also open this account, subject to satisfactory proof of income document.</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="divider"></div>
+    </div>
+
+
+    <div id="keyfeature-section">
+      <div class="container">
+        <h3 class="key-feature-heading">Key Features</h3>
+        <div class="row text-center mx-auto">
+          <div class="col-lg-4 col-sm-6 col-md-4 col-12">
+            <div class="key-featues-img">
+              <img src="../images/free-chequebook.png">
+              <h4>Free Chequebook</h4>
+              <p>No charges on issuance of chequebook</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-12 col-md-4">
+            <div class="key-featues-img">
+              <img src="../images/pay-orders.png">
+              <h4>Free Pay Orders</h4>
+              <p>Free Pay Orders</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-12 col-md-4">
+            <div class="key-featues-img">
+              <img src="../images/free-internet-banking.png">
+              <h4>Free Internet Banking</h4>
+              <p>Avail Completely free internet banking with a Current Account</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-12 col-md-4">
+            <div class="key-featues-img">
+              <img src="../images/minimum-investment.png">
+              <h4>Minimum Investment</h4>
+              <p>Minimum Investment for Opening a Rupee Current Account is Rs. 1000/-</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-12 col-md-4">
+            <div class="key-featues-img">
+              <img src="../images/online-branch-banking.png">
+              <h4>Online Branch Banking</h4>
+              <p>Avail Online branch banking facilities all across Pakistan</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-12 col-md-4">
+            <div class="key-featues-img">
+              <img src="../images/priority-desk.png">
+              <h4>Priority Desk</h4>
+              <p>Access to priority desk</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-12 col-md-4">
+            <div class="key-featues-img">
+              <img src="../images/no-restriction.png">
+              <h4>No Restriction</h4>
+              <p>No restriction on withdrawals or number of transactions.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-12 col-md-4">
+            <div class="key-featues-img">
+              <img src="../images/unlimited-withdrawals.png">
+              <h4>Unlimited Withdrawals</h4>
+              <p>Withdraw money as many times as you need in a single day</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-12 col-md-4">
+            <div class="key-featues-img">
+              <img src="../images/no-deductions.png">
+              <h4>No Deductions</h4>
+              <p>No deductions on low balance</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- CURRENT RUPEE BANK ACCOUNTS MAIN CONTENT SECTION END -->
+
+
+
+  <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+  <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+  <!-- CURRENT RUPEE BANK ACCOUNTS WORK INFO SECTION START -->
+
+
+  <div id="rupee-account-info">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <h1 class="rupee-acc-info-heading">How the Rupee Account Works</h1>
+          <p>Meezan Current Account is based on Qard contract where the Bank is liable to pay your money back on demand.
+            The Bank can use these funds for investment and other purposes. This account allows you the peace of mind of
+            having your money safely deposited with a bank with the additional assurance that the Bank is not investing
+            your money in activities that contravene Shariah principles.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- CURRENT RUPEE BANK ACCOUNTS WORK INFO SECTION END -->
+
+
+
+
+  <!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
+  <!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+  <!-- CURRENT RUPEE BANK ACCOUNTS WANT TO OPEN SECTION START -->
+
+
+  <div id="want-to-open">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <h3 class="want-to-open-heaing">Want to Open a Rupee Current Account?</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="text-gray-700 body-font" id="want-to-open-option">
+    <div class="container-fluid px-5 py-10 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 lg:w-1/3">
+          <div class="h-full px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative border"
+            style="box-shadow: 0 0 10px black;">
+            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-bold">Download , Print, Fill
+              Form</h1>
+            <p class="leading-relaxed mb-3">PDF version of our printed Account Opening Form is also available for
+              download. You can print the form, fill your details and submit it along with the required documents at
+              your preferred branch.</p>
+            <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+              <span class="text-gray-600 mr-0 inline-flex items-center leading-none text-sm pr-0 py-1">
+                <button type="button" class="want-to-open-button">DOWNLOAD FORM</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/3">
+          <div class="h-full px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative border"
+            style="box-shadow: 0 0 10px black;">
+            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-bold">Visit a Branch</h1>
+            <p class="leading-relaxed mb-3">You may visit any branch of Meezan Bank and our staff will assist you in
+              filling the printed Account Opening Form and opening your account.</p>
+            <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+              <span class="text-gray-600 mr-0 inline-flex items-center leading-none text-sm pr-0 py-1">
+                <button type="button" class="want-to-open-button">LOCATE A BRANCH</button>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-4 lg:w-1/3">
+          <div class="h-full px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative border"
+            style="box-shadow: 0 0 10px black;">
+            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 font-bold">Get Contacted</h1>
+            <p class="leading-relaxed mb-3">You may visit any branch of Meezan Bank and our staff will assist you in
+              filling the printed Account Opening Form and opening your account.</p>
+            <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+              <span class="text-gray-600 mr-0 inline-flex items-center leading-none text-sm pr-0 py-1">
+                <button type="button" class="want-to-open-button">LOCATE A BRANCH</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- CURRENT RUPEE ACCOUNTS WANT TO OPEN SECTION END -->
+
+
+
+
+  <!-- ------------------------------------------------------------------------------------------------------------------------------ -->
+  <!-- ------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+
+
+
+  <!-- CURRENT RUPEE BANK ACCOUNTS GET CONTACTED SECTION START -->
+
+
+  <section class="text-gray-700 body-font relative" id="get-contacted">
+    <div class="container-fluid px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-0">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 contacted-heading">Get contacted by
+          our representative!</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Fill out the form below and you'll be guided about how you
+          can open your new acount.</p>
+      </div>
+      <div class="container">
+        <div class="divider"></div>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="col-lg-12">
+            <div class="input-field">
+              <label>Name*</label>
+              <input
+                class="w-full focus:outline-none text-base px-4 py-2"
+                placeholder="Enter Name Here" type="text">
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="input-field">
+              <label>Email</label>
+              <input
+                class="w-full focus:outline-none text-base px-4 py-2"
+                placeholder="Enter Email Here" type="email">
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="input-field">
+              <label>Phone Number*</label>
+              <input
+                class="w-full focus:outline-none text-base px-4 py-2"
+                placeholder="Enter Number Here" type="number">
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="input-field">
+              <label>City*</label>
+              <input
+                class="w-full focus:outline-none text-base px-4 py-2"
+                placeholder="Enter City Name" type="text">
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="input-field">
+              <label>Nearest branch*</label>
+              <input
+                class="w-full focus:outline-none text-base px-4 py-2"
+                placeholder="Enter Branch Name" type="text">
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="input-field">
+              <label>Information</label>
+              <input
+                class="w-full focus:outline-none text-base px-4 py-2"
+                placeholder="What kind of information are you looking?" type="text">
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="input-field">
+              <textarea
+                class="w-full focus:outline-none h-48 text-base px-4 py-2 resize-none block"
+                placeholder="Message"></textarea>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div>
+              <button
+                class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none rounded text-lg get-contacted-button">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- CURRENT RUPEE BANK ACCOUNTS GET CONTACTED SECTION END -->
+
+
+
+  <!-- -------------------------------------------------------------------------------------------------------------------- -->
+  <!-- -------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+  <!-- SSE INFO SECTION START -->
+
+  <div id="sse-info">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-12" style="padding: 0px 0px;">
+          <div class="sse-locate">
+            <i class="fas fa-map-marker-alt"></i>
+            Locate Branch
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-12" style="padding: 0px 0px;">
+          <div class="sse-contact">
+            <i class="fas fa-phone-alt"></i>
+            Contact Us
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-12" style="padding: 0px 0px;">
+          <div class="sse-career">
+            <i class="fas fa-shopping-bag"></i>
+            Careers
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-12" style="padding: 0px 0px;">
+          <div class="sse-investor-relation">
+            <i class="fas fa-handshake"></i>
+            INV-Relations
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- SSE INFO SECTION END -->
+
+
+    <!-- ---------------------------------------------------------------------------------------------------------- -->
+  <!-- ---------------------------------------------------------------------------------------------------------- -->
+
+
+
+  <!-- FOOTER SECTION START -->
+
+
+  <footer class="page-footer font-small blue-grey lighten-5">
+
+    <div style="background-color: #451B8C;">
+      <div class="container">
+
+        <div class="row py-4 d-flex align-items-center">
+
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0" style="color: white;">Get connected with us on social networks!</h6>
+          </div>
+
+
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+
+            <a class="tw-ic">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+
+            <a class="ins-ic">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center text-md-left mt-5" id="footer-section">
+
+      <div class="row mt-3 dark-grey-text">
+
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+          <img src="../images/logo.png" alt="">
+          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <h6 class="text-uppercase font-weight-bold">USEFUL LINKS</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; height: 3px;">
+          <p>
+            <a class="dark-grey-text" href="#!">Sitemap</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Media Room</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Discount and Offers</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Rewards</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Privacy Policy</a>
+          </p>
+
+        </div>
+
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <h6 class="text-uppercase font-weight-bold">INFORMATION</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; height: 3px;">
+          <p>
+            <a class="dark-grey-text" href="#!">Schedule of Charges</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Locate Us</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Careers</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">Customer Survey</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">IBAN Generator</a>
+          </p>
+
+        </div>
+
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <h6 class="text-uppercase font-weight-bold">SERVICES</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; height: 3px;">
+          <p>
+            <a class="dark-grey-text" href="#">Pakistan Banao Certificate</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#">GEM</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#">Financial Institutions</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#">FAQs</a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
+      <a class="dark-grey-text" href="#"> Created by SSE</a>
+    </div>
+
+  </footer>
+
+
+
+  <!-- FOOTER SECTION END -->
+
+
+
+
+  <!-- JQUERY LINK -->
+  <script src="../js/jquery-1.12.1.min.js"></script>
+
+  <!-- BOOTSTRAP JS LINK -->
+  <script src="../js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+
+
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+
+    $(window).scroll(function () {
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 150);
+    });
+
+  </script>
+
+</body>
+
+</html>

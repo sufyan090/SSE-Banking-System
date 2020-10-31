@@ -1,0 +1,635 @@
+/* WAYS TO BANK MAIN HEADING SECTION START */
+
+.card {
+    height: auto;
+}
+
+.card img {
+    background-attachment: fixed;
+    height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 30%;
+}
+
+.card-img-overlay h5 {
+    font-size: 60px;
+    color: #451B8C;
+    padding: 0;
+    margin: 0 auto 10px auto;
+}
+
+.card-img-overlay p {
+    font-size: 25px;
+    color: #F49F1C;
+    line-height: 30px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+/* WAYS TO BANK MAIN HEADING SECTION END */
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* WAYS TO BANK SOCIAL ICONS SECTION START */
+
+#social-links {
+    padding: 20px;
+    background-color: white;
+}
+
+#social-links p {
+    color: #451B8C;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: center;
+}
+
+#social-links i {
+    font-size: 22px;
+    padding: 0 13px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+#social-links i:hover {
+    color: #F49F1C;
+}
+
+/* WAYS TO BANK SOCIAL ICONS SECTION END */
+
+
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------- */
+
+
+
+/* WAYS TO BANK INTERNET BANKING SECTION START */
+
+#internet-banking{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.laptop-image{
+    padding: 10px;
+}
+.laptop-image img{
+    height: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.internet-banking-content{
+    padding: 30px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.internet-banking-content p{
+    font-size: 14px !important;
+}
+
+.internet-banking-heading{
+    display: inline-block;
+    color: #451B8C;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.internet-banking-login{
+    margin-right: 10px;
+    background-color: #F49F1C;
+    padding: 15px 40px;
+    color: #451B8C;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: .3s ease-in-out;
+    margin-bottom: 10px ;
+    font-size: 18px;
+}
+.internet-banking-login:hover{
+    transition: .3s ease-in-out;
+    color: #F49F1C;
+    background-color: #451B8C;
+}
+.internet-banking-register{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #dcdad7;
+    padding: 15px 48px;
+    color: #451B8C;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+    font-size: 18px;
+}
+.internet-banking-register:hover{
+    background-color: #451B8C;
+    color: #F49F1C;
+    transition: .3s ease-in-out;
+}
+
+.internet-banking-bottom p{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 18px;
+    color: #451B8C;
+    font-weight: bolder;
+}
+
+.down-connected{
+    margin-left: auto;
+    margin-right: auto;
+    width: 55px;
+}
+
+.internet-banking-offers{
+    background-color: #f1efeb;
+    padding-bottom: 30px;
+}
+
+.internet-banking-offers img{
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    margin: auto;
+}
+
+.internet-banking-offers img:hover{
+    filter: blur(5px);
+    transition: .3s ease-in-out;
+}
+
+.internet-banking-offers p{
+    text-align: center;
+    color: #451B8C;
+}
+.internet-banking-offers .view-button{
+    text-decoration: underline;
+    color: #451B8C;
+    margin-bottom: 100px;
+}
+
+
+/* WAYS TO BANK INTERNET BANKING SECTION END */
+
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* WAYS TO BANK MOBILE BANKING SECTION START */
+
+
+
+
+
+
+#mobile-banking{
+    padding: 40px 0;
+}
+
+
+.mobile-banking-content p{
+    width: 80%;
+}
+
+.mobile-banking-content h1{
+    color: #451B8C;
+    font-weight: bold;
+    font-size: 30px;
+}
+.mobile-banking-content .mobile-banking-para{
+    font-size: 14px !important;
+    line-height: 28px;
+}
+
+.mobile-banking-content .key-features{
+    font-size: 14px !important;
+    line-height: 28px;
+}
+
+.mobile-banking-content .bullets li{
+    margin-left: 15px;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    margin-bottom: 10px !important;
+    list-style: initial !important;
+}
+
+
+.mobile-banking-content .mobile-banking-register{
+    display: block;
+    font-size: 18px;
+    margin: 40px 0px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    color: #451B8C;
+    background-color: #ebebeb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+
+.mobile-banking-content .mobile-banking-register:hover{
+    background-color: #451B8C;
+    transition: .3s ease-in-out;
+    color: #F49F1C;
+}
+
+.mobile-banking-content .mobile-apps-icon{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.mobile-banking-content .mobile-apps-icon img{
+    margin-left: auto;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+
+.mobile-banking-gif img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media(max-width: 480px){
+    .mobile-banking-content h1{
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    .mobile-banking-content .mobile-banking-para{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mobile-banking-content .key-features{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mobile-banking-content .mobile-banking-register{
+        display: block;
+        font-size: 16px;
+        margin: 20px auto;
+        padding: 20px;
+        text-align: center;
+        width: 150px;
+    }
+}
+
+
+/* WAYS TO BANK MOBILE BANKING SECTION END */
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+/* WAYS TO BANK FAQ SECTION START */
+
+
+#faq-section{
+    padding: 20px 0;
+}
+
+
+#faq-section h2{
+    color: #451B8C !important;
+    font-weight: bold;
+    padding-left: 18px;
+    font-size: 18px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    background-color:#fff;
+    color: #451B8C !important;
+    font-size: 15px;
+}
+
+.more-less {
+    float: right;
+    color: #451B8C;
+}
+
+.panel-title .fas{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ededed;
+}
+
+.panel-body{
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 14px;
+    display: block;
+}
+
+.panel-body-button{
+    display: block;
+    font-size: 18px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    text-decoration: underline;
+    color: #451B8C !important;
+    outline: none !important;
+    background: transparent;
+}
+
+
+
+
+/* WAYS TO BANK FAQ SECTION END */
+
+
+
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+
+
+
+
+/* WAYS TO BANK QR PAYMENT SECTION START */
+
+#qr-payment{
+    padding: 0px 0;
+    width: 90%;
+    margin: auto;
+}
+
+.fone-pay-faq{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.qr-payment-content{
+    padding: 0 10px;
+}
+
+.qr-payment-content h1{
+    margin: .67em 0;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    color: #451B8C !important;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+
+
+
+.fone-pay-para{
+    font-size: 14px !important;
+    color: #3a3a3a;
+    line-height: 28px;
+    margin: 0 0 10px;
+}
+
+.fone-pay-bullets{
+    margin: 0px !important;
+    padding: 12px !important;
+}
+.fone-pay-bullets li{
+    font-size: 14px !important;
+    line-height: 21px !important;
+    margin-bottom: 10px !important;
+    list-style: initial !important;
+}
+.fone-pay-bullets strong{
+    font-weight: 700;
+}
+
+.qr-payment-content .mobile-apps-icon{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor : pointer;
+}
+.qr-payment-content .mobile-apps-icon img{
+    margin: 10px 10px 0px 0px;
+    border: 0;
+}
+
+
+#qr-payment-faq{
+    padding: 20px 0;
+}
+
+#qr-payment-faq h2{
+    color: #451B8C !important;
+    font-weight: bold;
+    padding-left: 18px;
+    font-size: 18px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media(max-width: 480px){
+    .qr-payment-content h1{
+        font-size: 25px;
+    }
+    .qr-payment-content{
+        padding: 0 0px;
+    }
+}
+
+
+
+/* WAYS TO BANK QR PAYMENT SECTION END */
+
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+
+/* WAYS TO BANK DEBIT CARDS SECTION START */
+
+
+#debit-cards{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+ .debitcard-faq{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#debit-cards .twocolumn-image-div{
+    padding: 20px;
+}
+
+.center-block{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.debitcards-content h1{
+    font-size: 30px;
+    margin-top: 0;
+    color: #451B8C !important;
+}
+
+.debitcards-content h2{
+    color: #451B8C !important;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.debitcards-content .bullets{
+    margin: 0px !important;
+    padding: 12px !important;
+}
+
+.debitcards-content .bullets li{
+    font-size: 14px !important;
+    line-height: 21px !important;
+    list-style: initial !important;
+}
+
+.debitcards-content .bullets li a{
+    color: #451B8C !important;
+    text-decoration: none !important;
+}
+
+.debitcards-content .debitcards-para{
+    font-size: 14px !important;
+    line-height: 28px;
+}
+
+
+
+/* WAYS TO BANK DEBIT CARDS SECTION END */
+
+
+/* --------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------- */
+
+
+/* CALL CENTER SECTION START */
+
+
+
+#call-center{
+    padding: 40px 0;
+    background-color: #EEEEEE;
+}
+
+
+#call-center h3{
+    color: #451B8C !important;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+#call-center p{
+    margin: 0 0 10px;
+    font-size: 14px !important;
+    line-height: 28px;
+}
+
+/* CALL CENTER SECTION END */
+
+
+
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+
+
+
+/* ATM SECTION START */
+
+
+#atm-section{
+    padding: 40px 0;
+}
+
+.atm-content h3{
+    font-size: 30px;
+    margin-top: 0;
+    color: #451B8C !important;
+    font-weight: bold;
+}
+
+.atm-content p{
+    margin: 0 0 10px;
+    font-size: 14px !important;
+    line-height: 28px;
+}
+
+.atm-content .bullets{
+    margin: 0px !important;
+    padding: 12px !important;
+}
+
+.atm-content .bullets li{
+    font-size: 14px !important;
+    line-height: 21px !important;
+    margin-bottom: 10px !important;
+    list-style: initial !important;
+}
+
+/* ATM SECTION END */
+
+

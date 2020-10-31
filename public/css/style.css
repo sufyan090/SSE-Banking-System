@@ -1,0 +1,820 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+/* SCROLL BAR SECTION START */
+
+::-webkit-scrollbar {
+    background-color: black;
+    width: 12px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #F49F1C;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: gray;
+}
+
+::-webkit-scrollbar-button {
+    height: 0;
+}
+
+/* SCROLL BAR SECTION END */
+
+
+
+/* ----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/* FIXED SECTION START */
+
+#fixed-section {
+    position: fixed;
+    bottom: 20%;
+    z-index: 999999;
+}
+
+#fixed-section i {
+    width: 60px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: right;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+#fixed-section i:hover {
+    width: 120px;
+    transition: all .3s ease-in-out;
+}
+
+#fixed-section .fa-facebook-f {
+    background-color: steelblue !important;
+}
+
+#fixed-section .fa-twitter {
+    background-color: skyblue !important;
+}
+
+#fixed-section .fa-linkedin-in {
+    background-color: #0e76a8 !important;
+}
+
+#fixed-section .fa-instagram {
+    background-color: brown !important;
+}
+
+#fixed-section .fa-pinterest {
+    background-color: red !important;
+}
+
+/* FIXED SECTION END */
+
+
+/* ----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+/* NAVBAR SECTION START */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 0 10px black;
+    background-color: #451B8C !important;
+}
+
+.navbar-nav {
+    padding: 0 10px;
+}
+
+.navbar-toggler {
+    background-color: #F49F1C;
+}
+.navbar-toggler-icon{
+    padding: 20px 20px;
+}
+
+.navbar-brand img {
+    width: 200px;
+    height: 60px;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    color: white !important;
+    background: none;
+    transition: color 0.4s linear;
+    position: relative;
+}
+.nav-link:hover{
+    color: #fff !important;
+}
+.nav-link::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #F49F1C;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+}
+
+.btn1::before{
+    transform: scaleX(0);
+}
+.btn1:hover::before{
+    transform: scaleX(1);
+}
+
+.dropdown-menu {
+    width: 350px;
+    margin-top: 15px !important;
+    background-color: white !important;
+}
+
+.dropdown-item {
+    transition: all .2s ease-in-out;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+    font-size: 13px !important;
+}
+
+.dropdown-item:hover {
+    background-color: #F49F1C;
+    transition: all .2s ease-in-out;
+    padding-left: 30px;
+}
+
+#net-banking {
+    border: 1px solid black;
+    line-height: 70px;
+    height: 70px;
+    color: black !important;
+    box-shadow: 0 0 10px black;
+    background-color: #F49F1C;
+}
+#net-banking .register, .fa-pen {
+    padding: 0 5px;
+}
+
+#net-banking span {
+    color: black;
+    font-weight: bold;
+}
+
+.fa-pen {
+    color: black;
+}
+.fa-arrow-left {
+    color: black !important;
+    position: fixed;
+    left: 310px;
+    transition: all .3s ease-in-out;
+    font-size: 20px;
+    opacity: 0;
+}
+
+.dropdown-item:hover .fa-arrow-left {
+    left: 290px;
+    transition: all .3s ease-in-out;
+    opacity: 1;
+}
+
+#second-link:hover {
+    transition: all .5s ease-in-out;
+}
+
+#third-link:hover {
+    transition: all .5s ease-in-out;
+}
+
+#fourth-link:hover {
+    transition: all .5s ease-in-out;
+}
+
+/* NAVBAR SECTION END */
+
+
+
+/* ----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* SLIDER SECTION START */
+
+.carousel-caption {
+    position: absolute;
+    bottom: 30%;
+    right: 60%;
+}
+
+.carousel-caption span {
+    color: #F49F1C;
+    font-weight: bolder;
+}
+
+.carousel-caption h3 {
+    font-size: 2.5vw;
+    overflow: inherit;
+    display: block;
+    width: 800px;
+    text-align: left;
+}
+
+.carousel-caption p {
+    text-align: left;
+    width: 60vw;
+    padding: 20px 0;
+}
+
+.carousel-caption button {
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    outline: none;
+    background-color: #451B8C;
+    margin: 5px 0;
+    color: white;
+    transition: all .3s ease-in-out;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.carousel-caption button:hover {
+    background-color: #F49F1C;
+    transition: all .3s ease-in-out;
+    color: black;
+}
+
+.carousel-item img {
+    height: 500px !important;
+}
+
+.carousel-caption {
+    user-select: none;
+}
+
+/* SLIDER SECTION END */
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* THIRD SECTION START */
+
+#third-section img{
+    cursor: pointer !important;
+    transition: all .3s ease-in-out;
+    opacity: 1;
+}
+
+#third-section p{
+    text-align: center;
+}
+
+#third-section img:hover{
+    opacity: 0.7;
+}
+
+#third-section img:hover{
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+#third-section h2{
+    cursor: pointer;
+    text-align: center;
+    color: #451B8C;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+
+
+/* THIRD SECTION END */
+
+
+
+/* ----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* WAYS TO BANK US SECTION START */
+
+
+#ways-to-bank{
+    width: 100%;
+    background-color: rgba(255,255,255,0.75);
+    box-shadow: 0 0 10px black;
+}
+#ways-to-bank h2{
+    text-align: center;
+    color: #451B8C;
+    padding: 30px 0;
+    font-weight: bold;
+}
+
+#ways-to-bank h4{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+#ways-to-bank p{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#ways-to-bank i{
+    cursor: pointer;
+    background-color: #451B8C;
+    color: white;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 90px;
+    transition: all .3s ease-in-out;
+}
+
+#ways-to-bank i:hover{
+    background-color: #F49F1C !important;
+    transition: all .3s ease-in-out;
+}
+
+#ways-to-bank .fa-mobile{
+    width: 150px;
+}
+
+
+.ways-to-bank-content{
+    padding: 20px 0;
+}
+
+
+
+
+/* WAYS TO BANK US SECTION END */
+
+
+
+/* ----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* FEATURED SERVICES SECTION START */
+
+#featured-services{
+    margin: 10px 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#featured-services img{
+    transition: all .5s ease-in-out;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#featured-services img:hover{
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+
+.featured-service-content{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.featured-service-content:hover{
+    opacity: 0.6;
+}
+
+#featured-services h1{
+    font-size: 50px;
+    color: #451B8C;
+    font-weight: bold;
+}
+#featured-services h2{
+    color: #451B8C;
+}
+
+#featured-services > p{
+    font-size: 20px;
+}
+
+/* FEATURED SERVICES SECTION END */
+
+
+
+/* ----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/* OUR PRODUCTS SECTION START */
+
+
+#our-products{
+    padding: 20px;
+    background-color: #451B8C;
+}
+#our-products img{
+    height: 130px;
+}
+#our-products h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+#our-products  > p{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+.our-products-content{
+    height: 400px !important;
+    cursor: pointer;
+}
+
+.leading-relaxed{
+    font-size: 15px;
+}
+
+#our-products h2{
+    font-size: 22px;
+    color: #451B8C;
+}
+
+
+
+/* OUR PRODUCTS SECTION END */
+
+
+
+/* ----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+/* TOOL SECTION START */
+
+
+#tool-section{
+    margin: 5px 0;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+}
+
+#tool-section i{
+    cursor: pointer;
+    font-size: 35px;
+    transition: all .3s ease-in-out;
+}
+#tool-section i:hover
+{
+    transform: scale(1.5);
+    transition: all .3s ease-in-out;
+}
+.tool-content{
+    cursor: pointer;
+}
+.tool-content h2:hover{
+    color: green;
+}
+
+/* TOOL SECTION END */
+
+
+
+/* ----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+/* SSE INFO SECTION START */
+
+#sse-info{
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    background-color: #451B8C;
+    color: white;
+}
+.sse-locate{
+    padding: 40px 0px;
+    border-right: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sse-locate:hover{
+    background-color: #F49F1C;
+}
+
+
+.sse-contact{
+    padding: 40px 0px;
+    border-right: 1px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sse-contact:hover{
+    background-color: #F49F1C;
+}
+
+
+.sse-career{
+    padding: 40px 0px;
+    border-right: 1px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sse-career:hover{
+    background-color: #F49F1C;
+}
+
+
+.sse-investor-relation{
+    padding: 40px 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sse-investor-relation:hover{
+    background-color: #F49F1C;
+}
+
+
+
+/* SSE INFO SECTION END */
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* FOOTER SECTION START */
+
+
+
+footer{
+    box-shadow: inset 0 0 20px black;
+}
+#footer-section h6{
+    color: #451B8C;
+}
+
+#footer-section a{
+    color: black !important;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+    font-size: 15px;
+}
+.teal{
+    background-color: #F49F1C;
+}
+
+#footer-section a:hover{
+    text-decoration: none !important;
+    color: #F49F1C !important;
+    transition: all .2s ease-in-out;
+}
+
+
+.footer-copyright a{
+    color: #F49F1C !important;
+    font-weight: bolder;
+}
+
+.fb-ic i{
+    color: white;
+    cursor: pointer;
+}
+.fb-ic i:hover{
+    color: steelblue;
+}
+
+
+.tw-ic i{
+    color: white;
+    cursor: pointer;
+}
+.tw-ic i:hover{
+    color: skyblue;
+}
+
+
+.gplus-ic i{
+    color: white;
+    cursor: pointer;
+}
+.gplus-ic i:hover{
+    color: brown;
+}
+
+
+.li-ic i{
+    color: white;
+    cursor: pointer;
+}
+.li-ic i:hover{
+    color: blue;
+}
+
+
+.ins-ic i{
+    color: white;
+    cursor: pointer;
+}
+.ins-ic i:hover{
+    color: brown;
+}
+
+/* FOOTER SECTION END */
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+/* MEDIA QUERY SECTION START */
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+}
+
+@media(max-width: 1200px) {
+    .navbar-brand img {
+        max-width: 200px;
+    }
+    .nav-link{
+        font-size: 10px !important;
+    }
+}
+
+@media(min-width: 1200px) {
+    nav .navbar-nav>li>a {
+        z-index: 2;
+        height: 40px;
+        line-height: 40px;
+        padding: 0px 18px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+}
+
+@media(max-width: 992px) {
+    #first-link {
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    #second-link {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    #third-link {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    #fourth-link {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    .navbar-nav {
+        padding: 0 0;
+    }
+    .carousel-caption h3 {
+        font-size: 30px;
+    }
+    #net-banking {
+        background-color: transparent;
+        padding: 25px 20px;
+        color: white !important;
+        display: block;
+        line-height: 0px;
+        height: 55px !important;
+        box-shadow: none;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    #net-banking span{
+        color: white !important;
+    }
+    .nav-link {
+        padding: 20px 30px !important;
+        transition: all .2s ease-in-out;
+    }
+    .nav-link:hover{
+        transition: all .2s ease-in-out;
+        padding-left: 50px !important;
+    }
+    #fixed-section {
+        display: none;
+    }
+    .collapse .nav-link{
+        font-size: 13px !important;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+}
+
+@media(max-width:768px){
+    #tool-section .tool-content{
+        width: 100% !important;
+    }
+    .carousel-caption h3{
+        font-size: 30px !important;
+    }
+    .carousel-caption p{
+        font-size: 14px !important;
+    }
+    .carousel-caption span{
+        font-size: 20px !important;
+    }
+}
+@media(max-width:1024px){
+    .nav-link{
+        font-size: 10px !important;
+    }
+}
+
+
+/* MEDIA QUERY SECTION END */
+
+
+/* ----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */

@@ -1,0 +1,273 @@
+/* RUPEE CURRENT ACCOUNT HEADING SECTION START */
+
+header.masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/rupee-current-account.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.form-row .btn{
+    background-color: #451B8C;
+    padding: 20px 30px;
+    border-radius: 0px;
+    color: #F49F1C;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header.masthead .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+header.masthead h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #451B8C;#our-products h1
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+    header.masthead h1 {
+        font-size: 3rem;
+    }
+}
+
+/* RUPEE CURRENT ACCOUNT HEADING SECTION END */
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+
+
+/* CURRENT RUPEE BANK ACCOUNTS SOCIAL ICONS SECTION START */
+
+#social-links{
+    padding: 20px;
+    background-color: white;
+}
+#social-links p{
+    color: #451B8C;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: center;
+}
+#social-links i{
+    font-size: 22px;
+    padding: 0 13px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+#social-links i:hover{
+    color: #F49F1C;
+}
+
+
+/* CURRENT RUPEE BANK ACCOUNTS SOCIAL ICONS SECTION END */
+
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+
+
+
+/* CURRENT RUPEE BANK ACCOUNT MAIN CONTENT SECTION START */
+
+#current-accounts-section{
+    padding: 40px 0;
+}
+#current-accounts-section h3{
+    color: #451B8C;
+    font-weight: bold;
+}
+#current-accounts-section p{
+    color: black;
+    width: 80%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divider{
+    margin-left: 15px;
+    margin-right: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div.container::before{
+    content: '';
+    display: table;
+}
+div.container::after{
+    clear: both;
+}
+#current-accounts-section .key-feature-heading{
+    text-align: center;
+}
+
+#keyfeature-section p{
+    text-align: center;
+}
+
+.key-featues-img img{
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.key-featues-img img:hover{
+    filter: blur(5px);
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.key-featues-img h4{
+    color: #F49F1C;
+    font-size: 18px;
+}
+
+
+/* CURRENT RUPEE BANK ACCOUNT MAIN CONTENT SECTION END */
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* CURRENT DOLLAR BANK ACCOUNTS WORK INFO SECTION START */
+
+
+
+#rupee-account-info{
+    width: 100%;
+    background-color: #451B8C;
+    padding: 30px;
+}
+.rupee-acc-info-heading{
+    color: white;
+    padding: 10px 0;
+    font-size: 22px;
+}
+#rupee-account-info p{
+    width: 100%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+/* CURRENT DOLLAR BANK ACCOUNTS WORK INFO SECTION END */
+
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------- */
+
+
+
+/* CURRENT RUPEE BANK ACCOUNTS WANT TO OPEN SECTION START  */
+
+
+#want-to-open{
+    width: 100%;
+    padding: 40px 0;
+}
+
+#want-to-open h3{
+    font-size: 24px;
+    color: #451B8C;
+    font-weight: bold;
+}
+
+#want-to-open-option .want-to-open-button{
+    background-color: #451B8C;
+    padding: 15px 30px;
+    color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .3s ease-in-out;
+}
+#want-to-open-option .want-to-open-button:hover{
+    background-color: #F49F1C;
+    transition: all .3s ease-in-out;
+}
+
+
+/* CURRENT RUPEE BANK ACCOUNTS WANT TO OPEN SECTION END  */
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* CURRENT RUPEE BANK ACCOUNTS GET CONTACTED SECTION START */
+
+
+
+#get-contacted{
+    padding: 40px 0px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 5px black;
+}
+
+.contacted-heading{
+    color: #451B8C;
+    font-weight: bold;
+}
+.get-contacted-button{
+    background-color: #451B8C;
+    transition: all .3s ease-in-out;
+}
+.get-contacted-button:hover{
+    transition: all .3s ease-in-out;
+    background-color: #F49F1C;
+}
+
+.input-field{
+    padding: 10px 0;
+}
+.input-field label{
+    font-weight: bold;
+}
+.input-field input{
+    font-weight: bold;
+    border: none !important;
+    border-bottom: 2px solid #F49F1C !important;
+}
+.input-field textarea{
+    border-bottom: 2px solid #F49F1C !important;
+}
+ 
+
+
+
+/* CURRENT RUPEE BANK ACCOUNTS GET CONTACTED SECTION END */
+
+

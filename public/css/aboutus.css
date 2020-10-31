@@ -1,0 +1,513 @@
+/* ABOUT US MAIN HEADING SECTION START */
+
+#contactus-heading header.masthead {
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/Contact-Us.jpg);
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+#contactus-heading header.masthead .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#contactus-heading header.masthead h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #451B8C;
+}
+
+
+
+@media (min-width: 768px) {
+    #contactus-heading  header.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+    #contactus-heading header.masthead h1 {
+        font-size: 3rem;
+    }
+}
+
+
+
+/* ABOUT US MAIN HEADING SECTION END */
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ABOUT US SECOND SECTION START */
+
+
+#second-section{
+    padding: 40px 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#second-section .color-container{
+    position: relative;
+    overflow: hidden;
+}
+
+#second-section .primary-shade{
+    position: relative;
+    padding: 20px 0;
+}
+
+#second-section .primary-shade::before{
+    content: '';
+    position: absolute;
+    width: 1000%;
+    background-color: #451B8C !important;
+    right: 0;
+    top: -136%;
+    height: 387%;
+    z-index: -1;
+}
+
+#second-section .alternate{
+    color: #fff;
+}
+
+#second-section .txt-medium{
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+
+#second-section .text-capitalize{
+    text-transform: capitalize !important;
+}
+
+#second-section .left-content-para{
+    color: #fff;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+@media(max-width :992px){
+    .text-lg-left{
+        text-align: left !important;
+    }
+    .d-lg-block{
+        display: block !important;
+    }
+}
+
+
+#second-section .tab-content-modifier{
+    min-height: 250px;
+    text-align: center;
+}
+
+#second-section .tab-content > .active{
+    display: block;
+}
+
+#creditCards h2{
+    color: #451B8C !important;
+    font-weight: bold;
+    font-size: 2rem; 
+}
+
+#creditCards p{
+    line-height: 1.58;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+#creditCards .btn-primary{
+    color: #F49F1C;
+    background-color: #451B8C;
+    border-color: #451B8C;
+    border-radius: 0px !important;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+
+#creditCards .btn-primary:hover{
+    background-color: #fff;
+    color: #451B8C;
+    transition: .3s ease-in-out;
+}
+
+@media(max-width: 992px){
+    #creditCards h2{
+        color: white !important;
+    }
+    #creditCards .btn-primary{
+        background-color: #F49F1C;
+        color: #451B8C;
+    }
+    #creditCards p{
+        color: white !important;
+    }
+}
+
+@media(min-width:992px){
+    #second-section .tab-content-modifier .tab-pane{
+        min-height: 280px;
+    }
+}
+
+
+/* ABOUT US SECOND SECTION END */
+
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* ABOUT US THIRD SECTION START */
+
+
+#third-section{
+    padding: 40px 0;
+    margin-bottom: 30px;    
+}
+
+.third-section-content{
+    padding: 20px 0;   
+}
+.card-body{
+    padding: 50px 0 !important;
+    
+}
+
+.card-title{
+    color: #451B8C;
+    text-align: center;
+    word-spacing: 1px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.card-text{
+    color: black; 
+    font-weight: bolder;  
+    cursor: pointer;
+}
+.card-text:hover{
+    color:#451B8C;
+}
+.card{
+    width: 100%;
+    border-top: 8px solid #F49F1C ;
+}
+.heading h3{
+    color:#451B8C;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+
+}
+.heading p{
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+/* ABOUT US THIRD SECTION END */
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------- */
+
+
+
+/* SSE VISION SECTION START */
+
+
+
+#vision{
+    margin: auto;
+    width: 90%;
+}
+
+
+
+
+.vision-content{
+    background-color: #451B8C;
+    padding: 40px 0;
+}
+
+
+#vision .vision-heading{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2.625rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+.font-size-xlg{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #F49F1C;
+}
+
+.seprator{
+    width: 60%;
+    margin: auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right , rgba(251,176,64,0.48), #F49F1C, rgba(251,176,64,0));
+}
+
+
+
+/* SSE VISION SECTION END */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+/* BOARD OF DIRECTOR SECTION START */
+
+
+#directors{
+    padding: 40px 0;
+    background-color: #fff;
+    box-shadow: 0 0 3px solid black;
+}
+
+#directors h3{
+    color: #451B8C;
+    font-weight: bold;
+}
+
+#directors p{
+    color: #F49F1C;
+}
+
+
+.director-heading{
+    text-align: center; 
+}
+
+.director-heading h2{
+    color: #451B8C !important;
+    font-weight: bold;  
+}
+
+.director-heading p{
+    margin-bottom: 40px;
+    color: #F49F1C;
+}
+
+
+
+/* BOARD OF DIRECTOR SECTION END */
+
+
+
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+
+
+/* CREDIT RATINGS SECTION START */
+
+
+#credit-ratings{
+    background-color: #f4f4f4 !important;
+}
+
+#credit-ratings .credit-ratings-img{
+    padding: 50px 0;
+}
+
+#credit-ratings .credit-ratings-img img{
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+#credit-ratings .credit-rating-button{
+    background-color: #451B8C !important;
+    color: #F49F1C !important;
+    padding: 8px 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+#credit-ratings .credit-rating-button:hover{
+    background-color: #F49F1C !important;
+    color: #451B8C !important;
+    transition: .3s ease-in-out;
+}
+ 
+#credit-ratings .credit-ratings-content h1{
+    color: #451B8C;
+    font-weight: bold;
+    font-size: 2.625rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    margin-top: 0;
+}
+
+#credit-ratings .credit-ratings-content p{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#credit-ratings .credit-ratings-content {
+    padding: 50px 0;
+}
+
+
+
+/* CREDIT RATINGS SECTION END */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+/* GLOBAL PRESENCE SECTION START */
+
+
+#global-presence{
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+#global-presence .global-header{
+    text-align: center;
+}
+
+#global-presence .global-header h1{
+    color: #451B8C;
+    font-weight: bold;
+    font-size: 2.625rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    margin-top: 0;
+}
+
+#global-presence p{
+    color: #F49F1C;
+    font-size: 1.105rem;
+}
+
+#global-presence .overseas{
+    padding: 40px 0;
+}
+
+.overseas img{
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.overseas img:hover{
+    filter: blur(3px);
+    transition: .3s ease-in-out;
+}
+
+.overseas h4{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* GLOBAL PRESENCE SECTION END */
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+
+
+/* SOCIAL RESPONSIBILITY SECTION START */
+
+
+#responsibility{
+    padding: 40px 0;
+    background-color: #f4f4f4 !important;
+}
+
+#responsibility .responsibility-button{
+    background-color: #451B8C;
+    padding: 10px 40px;
+    color: #F49F1C;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.responsibility-content h1{
+    font-size: 2.625rem;
+    color: #451B8C;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    line-height: 1.4;
+}
+
+.responsibility-content ul{
+    display: inline;
+}
+.responsibility-content ul li{
+    list-style: initial;
+    padding-bottom: 25px;
+}
+
+.responsibility-content p{
+    font-size: 16px !important;
+}
+
+
+#responsibility .responsibility-button:hover{
+    background-color: #F49F1C;
+    color: #451B8C;
+    transition: .3s ease-in-out;
+}
+
+
+.reponsibility-image{
+    padding-top: 25px;
+}
+
+
+
+/* SOCIAL RESPONSIBILITY SECTION END */
+
+
+
